@@ -32,7 +32,7 @@ gem 'mysql2', require: false
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'bootstrap', '~> 4.0.0.alpha5'
+gem 'bootstrap', '~> 5.0.0.0'
 gem 'devise'
 gem 'font-awesome-rails'
 gem 'omniauth-facebook'
