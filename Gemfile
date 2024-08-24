@@ -44,7 +44,7 @@ gem "select2-rails"
 gem 'gravatarify'
 gem 'redcarpet'
 gem 'kaminari'
-gem 'bootstrap4-kaminari-views'
+gem 'bootstrap4-kaminari-views', '>= 1.0.1'
 gem 'autosize-rails'
 gem 'chartkick'
 gem 'dateslices'
@@ -60,7 +60,7 @@ gem 'browser'
 
 # google calendars
 gem 'google-api-client', require: 'google/apis/calendar_v3'
-gem 'simple_calendar'
+gem 'simple_calendar', '>= 2.2.6'
 
 # google maps
 gem 'gmaps-rails'
