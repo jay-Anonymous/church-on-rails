@@ -54,7 +54,7 @@ gem 'nokogiri'
 gem "non-stupid-digest-assets"
 gem 'handlebars_assets'
 gem 'js-routes'
-gem 'request_store'
+gem 'request_store', '>= 1.4.0'
 gem 'rails-timeago'
 gem 'browser'
 
