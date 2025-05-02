@@ -78,7 +78,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'awesome_print', require: 'ap'
   gem 'pry-rails'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'factory_girl_rails'
   gem 'fuubar'
   gem 'database_cleaner'
