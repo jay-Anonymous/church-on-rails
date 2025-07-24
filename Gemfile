@@ -2,20 +2,20 @@ source 'https://rubygems.org'
 ruby "2.3.1"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 5.0.1'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.2.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -33,34 +33,34 @@ gem 'mysql2', require: false
 # gem 'capistrano-rails', group: :development
 
 gem 'bootstrap', '~> 4.0.0.alpha5'
-gem 'devise'
-gem 'font-awesome-rails'
+gem 'devise', '>= 4.2.1'
+gem 'font-awesome-rails', '>= 4.7.0.2'
 gem 'omniauth-facebook'
 gem 'cancancan'
 gem 'paperclip'
-gem 'bootstrap3-datetimepicker-rails'
-gem 'momentjs-rails'
-gem "select2-rails"
+gem 'bootstrap3-datetimepicker-rails', '>= 4.17.47'
+gem 'momentjs-rails', '>= 2.17.1'
+gem "select2-rails", ">= 4.0.4"
 gem 'gravatarify'
 gem 'redcarpet'
 gem 'kaminari'
-gem 'bootstrap4-kaminari-views'
+gem 'bootstrap4-kaminari-views', '>= 1.0.1'
 gem 'autosize-rails'
 gem 'chartkick'
 gem 'dateslices'
 gem 'simple-spreadsheet'
-gem 'premailer-rails'
-gem 'nokogiri'
+gem 'premailer-rails', '>= 1.9.6'
+gem 'nokogiri', '>= 1.18.9'
 gem "non-stupid-digest-assets"
 gem 'handlebars_assets'
-gem 'js-routes'
+gem 'js-routes', '>= 1.4.0'
 gem 'request_store'
-gem 'rails-timeago'
+gem 'rails-timeago', '>= 2.16.0'
 gem 'browser'
 
 # google calendars
 gem 'google-api-client', require: 'google/apis/calendar_v3'
-gem 'simple_calendar'
+gem 'simple_calendar', '>= 2.2.6'
 
 # google maps
 gem 'gmaps-rails'
@@ -71,22 +71,22 @@ gem 'ice_cube'
 gem 'schedulable', git: 'https://github.com/sethjeffery/schedulable.git'
 
 # With figaro you can define ENV variables on the server more easily with a `config/application.yml` file.
-gem 'figaro'
+gem 'figaro', '>= 1.2.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'awesome_print', require: 'ap'
   gem 'pry-rails'
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  gem 'rspec-rails', '>= 3.6.0'
+  gem 'factory_girl_rails', '>= 4.8.0'
   gem 'fuubar'
   gem 'database_cleaner'
   gem 'guard-rspec', require: false
-  gem 'capybara'
+  gem 'capybara', '>= 2.10.2'
   gem 'faker'
   gem 'webmock'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.13.0'
   gem 'timecop'
 end
 
@@ -100,8 +100,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'guard-rails', require: false
-  gem 'guard-migrate', require: false
+  gem 'guard-rails', '>= 0.8.1', require: false
+  gem 'guard-migrate', '>= 2.0.0', require: false
   gem 'letter_opener'
 end
 
