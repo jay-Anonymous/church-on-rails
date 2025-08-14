@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby "2.3.1"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -44,7 +44,7 @@ gem "select2-rails"
 gem 'gravatarify'
 gem 'redcarpet'
 gem 'kaminari'
-gem 'bootstrap4-kaminari-views'
+gem 'bootstrap4-kaminari-views', '>= 1.0.1'
 gem 'autosize-rails'
 gem 'chartkick'
 gem 'dateslices'
@@ -60,7 +60,7 @@ gem 'browser'
 
 # google calendars
 gem 'google-api-client', require: 'google/apis/calendar_v3'
-gem 'simple_calendar'
+gem 'simple_calendar', '>= 2.2.6'
 
 # google maps
 gem 'gmaps-rails'
@@ -101,7 +101,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'guard-rails', require: false
-  gem 'guard-migrate', require: false
+  gem 'guard-migrate', '>= 2.0.0', require: false
   gem 'letter_opener'
 end
 
