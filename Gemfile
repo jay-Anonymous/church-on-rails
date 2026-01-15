@@ -37,7 +37,7 @@ gem 'devise'
 gem 'font-awesome-rails'
 gem 'omniauth-facebook'
 gem 'cancancan'
-gem 'paperclip'
+gem 'paperclip', '>= 5.2.0'
 gem 'bootstrap3-datetimepicker-rails'
 gem 'momentjs-rails'
 gem "select2-rails"
@@ -55,7 +55,7 @@ gem "non-stupid-digest-assets"
 gem 'handlebars_assets'
 gem 'js-routes'
 gem 'request_store'
-gem 'rails-timeago'
+gem 'rails-timeago', '>= 2.16.0'
 gem 'browser'
 
 # google calendars
@@ -78,7 +78,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'awesome_print', require: 'ap'
   gem 'pry-rails'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.6.0'
   gem 'factory_girl_rails'
   gem 'fuubar'
   gem 'database_cleaner'
