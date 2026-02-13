@@ -35,7 +35,7 @@ gem 'mysql2', require: false
 gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'devise'
 gem 'font-awesome-rails'
-gem 'omniauth-facebook'
+gem 'omniauth-facebook', '>= 5.0.0'
 gem 'cancancan'
 gem 'paperclip'
 gem 'bootstrap3-datetimepicker-rails'
@@ -59,7 +59,7 @@ gem 'rails-timeago'
 gem 'browser'
 
 # google calendars
-gem 'google-api-client', require: 'google/apis/calendar_v3'
+gem 'google-api-client', '>= 0.53.0', require: 'google/apis/calendar_v3'
 gem 'simple_calendar'
 
 # google maps
